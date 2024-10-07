@@ -9,6 +9,14 @@ def multiply_function(x,y):
 #Hello Test#
 #How do you stash#
 print("This is new")
+def word_frequency(text):
+  temp_dict = {}
+  for i in text.lower():
+    if i in temp_dict:
+      temp_dict[i] = temp_dict[i] + 1
+    else:
+      temp_dict[i] = 1
+  return temp_dict
 def invert_dict(original_dict):
   temp_dict = {}
   for i, j in original_dict.items():
