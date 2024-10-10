@@ -1,6 +1,6 @@
 def add_function(x,y):
   return int(x)+int(y)
-def substract_function(x,y):
+def subtract_function(x,y):
   return int(x)-int(y)
 def divide_function(x,y):
   if int(y) == 0:
